@@ -9,6 +9,7 @@ import CRUD.*;
 //import CRUD.akomodasi_CRUD;
 import java.sql.Date;
 import java.time.LocalDate;
+import gui.FrameUtama;
 
 
 /**
@@ -21,7 +22,10 @@ public class Pariwisata_ {
      * @param args the command line arguments
      */
     
-//          public static void main(String[] args) {
+         public static void main(String[] args) {
+            
+             new FrameUtama().setVisible(true);
+         }
 //         wisata_CRUD ConnectionDb = new wisata_CRUD();
 //          Date tahun = Date.valueOf("2024-08-18");
 //          ConnectionDb.simpanWisata_CRUD(567, "pantai tangkisung ", tahun, "buka", "anjir", "pantai", 050);
@@ -98,7 +102,7 @@ public class Pariwisata_ {
 //        System.out.println("Info Akomodasi: " + akomodasi.getInfoAko());
 //        System.out.println("Alamat Akomodasi: " + akomodasi.getAlamatAko());
 //        System.out.println("Status: " + akomodasi.getStatus());
-     }
+    }
 //}
 
    

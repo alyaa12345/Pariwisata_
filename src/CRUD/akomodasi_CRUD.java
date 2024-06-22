@@ -61,7 +61,7 @@ public class akomodasi_CRUD {
            perintah.setString(3, info_ako );
            perintah.setString(4, alamat_ako );
            perintah.setString(5, status );
-           perintah.setInt(6, id_admin );
+           perintah.setInt(6, id_admin ); 
            perintah.setInt(7, id_ako );
            perintah.executeUpdate();
            System.out.println("updated");
